@@ -1,0 +1,157 @@
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #FFF5EE;
+}
+/* Global formatting */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe_button {
+  height: 38px;
+  background-color: gray;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  letter-spacing: 0.75px;
+  color: white;
+  outline: none;
+}
+
+.subscribe_button:hover {
+  cursor: pointer;
+}
+
+/* Header only stuff */
+header {
+  background-color: #A52A2A;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #A9A9A9 5px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  /* top, right, bottom, left */
+}
+
+header #bigheading {
+  float: left;
+}
+
+header #bigheading h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a{
+  border-bottom: 2px solid #A9A9A9;
+}
+
+#backgroundimage {
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/newbackground.jpg');
+  background-position: top;
+  text-align: center;
+  color: #ffffff;
+}
+#backgroundimage h1 {
+margin-top: 100px;
+margin-bottom: 10px;
+font-size: 55px;
+font-weight:lighter;
+}
+
+#backgroundimage p {
+  font-size: 18px;
+}
+
+#email_subscription {
+  padding: 5px;
+  color: white;
+  background: #A52A2A;
+  border-top: #A9A9A9 5px solid;
+}
+
+#email_subscription h1 {
+  float: left;
+}
+
+#email_subscription form {
+  float: right;
+  margin-top: 15px;
+}
+
+#email_subscription input[type="email"] {
+  padding: 5px;
+  height: 25px;
+  width: 250px;
+  color: white;
+  border: 2px solid #A9A9A9;
+  border-radius: 25px;
+  outline: none;
+}
+/* the three boxes in the mid-lower area of landing page */
+.row {
+margin-top: 30px;
+padding: 10px;
+}
+
+.column {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.column img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+
+}
+
+footer {
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #A9A9A9;
+  text-align: center;
+}
+
+}
